@@ -1,0 +1,1007 @@
+{
+  "cesp_version": "1.0",
+  "name": "eager-assistant",
+  "display_name": "Eager Assistant",
+  "version": "1.0.0",
+  "description": "Eager Assistant is surely eager to help solve human problems.",
+  "author": {
+    "name": "Christopher Stevens",
+    "github": "owntheweb"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/session_start_001.mp3",
+          "label": "session start 001"
+        },
+        {
+          "file": "sounds/session_start_002.mp3",
+          "label": "session start 002"
+        },
+        {
+          "file": "sounds/session_start_003.mp3",
+          "label": "session start 003"
+        },
+        {
+          "file": "sounds/session_start_004.mp3",
+          "label": "session start 004"
+        },
+        {
+          "file": "sounds/session_start_005.mp3",
+          "label": "session start 005"
+        },
+        {
+          "file": "sounds/session_start_006.mp3",
+          "label": "session start 006"
+        },
+        {
+          "file": "sounds/session_start_007.mp3",
+          "label": "session start 007"
+        },
+        {
+          "file": "sounds/session_start_008.mp3",
+          "label": "session start 008"
+        },
+        {
+          "file": "sounds/session_start_009.mp3",
+          "label": "session start 009"
+        },
+        {
+          "file": "sounds/session_start_010.mp3",
+          "label": "session start 010"
+        },
+        {
+          "file": "sounds/session_start_011.mp3",
+          "label": "session start 011"
+        },
+        {
+          "file": "sounds/session_start_012.mp3",
+          "label": "session start 012"
+        },
+        {
+          "file": "sounds/session_start_013.mp3",
+          "label": "session start 013"
+        },
+        {
+          "file": "sounds/session_start_014.mp3",
+          "label": "session start 014"
+        },
+        {
+          "file": "sounds/session_start_015.mp3",
+          "label": "session start 015"
+        },
+        {
+          "file": "sounds/session_start_016.mp3",
+          "label": "session start 016"
+        },
+        {
+          "file": "sounds/session_start_017.mp3",
+          "label": "session start 017"
+        },
+        {
+          "file": "sounds/session_start_018.mp3",
+          "label": "session start 018"
+        },
+        {
+          "file": "sounds/session_start_019.mp3",
+          "label": "session start 019"
+        },
+        {
+          "file": "sounds/session_start_020.mp3",
+          "label": "session start 020"
+        },
+        {
+          "file": "sounds/session_start_021.mp3",
+          "label": "session start 021"
+        },
+        {
+          "file": "sounds/session_start_022.mp3",
+          "label": "session start 022"
+        },
+        {
+          "file": "sounds/session_start_023.mp3",
+          "label": "session start 023"
+        },
+        {
+          "file": "sounds/session_start_024.mp3",
+          "label": "session start 024"
+        },
+        {
+          "file": "sounds/session_start_025.mp3",
+          "label": "session start 025"
+        },
+        {
+          "file": "sounds/session_start_026.mp3",
+          "label": "session start 026"
+        },
+        {
+          "file": "sounds/session_start_027.mp3",
+          "label": "session start 027"
+        },
+        {
+          "file": "sounds/session_start_028.mp3",
+          "label": "session start 028"
+        },
+        {
+          "file": "sounds/session_start_029.mp3",
+          "label": "session start 029"
+        },
+        {
+          "file": "sounds/session_start_030.mp3",
+          "label": "session start 030"
+        },
+        {
+          "file": "sounds/session_start_031.mp3",
+          "label": "session start 031"
+        },
+        {
+          "file": "sounds/session_start_032.mp3",
+          "label": "session start 032"
+        },
+        {
+          "file": "sounds/session_start_033.mp3",
+          "label": "session start 033"
+        },
+        {
+          "file": "sounds/session_start_034.mp3",
+          "label": "session start 034"
+        },
+        {
+          "file": "sounds/session_start_035.mp3",
+          "label": "session start 035"
+        },
+        {
+          "file": "sounds/session_start_036.mp3",
+          "label": "session start 036"
+        },
+        {
+          "file": "sounds/session_start_037.mp3",
+          "label": "session start 037"
+        },
+        {
+          "file": "sounds/session_start_038.mp3",
+          "label": "session start 038"
+        },
+        {
+          "file": "sounds/session_start_039.mp3",
+          "label": "session start 039"
+        },
+        {
+          "file": "sounds/session_start_040.mp3",
+          "label": "session start 040"
+        },
+        {
+          "file": "sounds/session_start_041.mp3",
+          "label": "session start 041"
+        },
+        {
+          "file": "sounds/session_start_042.mp3",
+          "label": "session start 042"
+        },
+        {
+          "file": "sounds/session_start_043.mp3",
+          "label": "session start 043"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/task_acknowledge_001.mp3",
+          "label": "task acknowledge 001"
+        },
+        {
+          "file": "sounds/task_acknowledge_002.mp3",
+          "label": "task acknowledge 002"
+        },
+        {
+          "file": "sounds/task_acknowledge_003.mp3",
+          "label": "task acknowledge 003"
+        },
+        {
+          "file": "sounds/task_acknowledge_004.mp3",
+          "label": "task acknowledge 004"
+        },
+        {
+          "file": "sounds/task_acknowledge_005.mp3",
+          "label": "task acknowledge 005"
+        },
+        {
+          "file": "sounds/task_acknowledge_006.mp3",
+          "label": "task acknowledge 006"
+        },
+        {
+          "file": "sounds/task_acknowledge_007.mp3",
+          "label": "task acknowledge 007"
+        },
+        {
+          "file": "sounds/task_acknowledge_008.mp3",
+          "label": "task acknowledge 008"
+        },
+        {
+          "file": "sounds/task_acknowledge_009.mp3",
+          "label": "task acknowledge 009"
+        },
+        {
+          "file": "sounds/task_acknowledge_010.mp3",
+          "label": "task acknowledge 010"
+        },
+        {
+          "file": "sounds/task_acknowledge_011.mp3",
+          "label": "task acknowledge 011"
+        },
+        {
+          "file": "sounds/task_acknowledge_012.mp3",
+          "label": "task acknowledge 012"
+        },
+        {
+          "file": "sounds/task_acknowledge_013.mp3",
+          "label": "task acknowledge 013"
+        },
+        {
+          "file": "sounds/task_acknowledge_014.mp3",
+          "label": "task acknowledge 014"
+        },
+        {
+          "file": "sounds/task_acknowledge_015.mp3",
+          "label": "task acknowledge 015"
+        },
+        {
+          "file": "sounds/task_acknowledge_016.mp3",
+          "label": "task acknowledge 016"
+        },
+        {
+          "file": "sounds/task_acknowledge_017.mp3",
+          "label": "task acknowledge 017"
+        },
+        {
+          "file": "sounds/task_acknowledge_018.mp3",
+          "label": "task acknowledge 018"
+        },
+        {
+          "file": "sounds/task_acknowledge_019.mp3",
+          "label": "task acknowledge 019"
+        },
+        {
+          "file": "sounds/task_acknowledge_020.mp3",
+          "label": "task acknowledge 020"
+        },
+        {
+          "file": "sounds/task_acknowledge_021.mp3",
+          "label": "task acknowledge 021"
+        },
+        {
+          "file": "sounds/task_acknowledge_022.mp3",
+          "label": "task acknowledge 022"
+        },
+        {
+          "file": "sounds/task_acknowledge_023.mp3",
+          "label": "task acknowledge 023"
+        },
+        {
+          "file": "sounds/task_acknowledge_024.mp3",
+          "label": "task acknowledge 024"
+        },
+        {
+          "file": "sounds/task_acknowledge_025.mp3",
+          "label": "task acknowledge 025"
+        },
+        {
+          "file": "sounds/task_acknowledge_026.mp3",
+          "label": "task acknowledge 026"
+        },
+        {
+          "file": "sounds/task_acknowledge_027.mp3",
+          "label": "task acknowledge 027"
+        },
+        {
+          "file": "sounds/task_acknowledge_028.mp3",
+          "label": "task acknowledge 028"
+        },
+        {
+          "file": "sounds/task_acknowledge_029.mp3",
+          "label": "task acknowledge 029"
+        },
+        {
+          "file": "sounds/task_acknowledge_030.mp3",
+          "label": "task acknowledge 030"
+        },
+        {
+          "file": "sounds/task_acknowledge_031.mp3",
+          "label": "task acknowledge 031"
+        },
+        {
+          "file": "sounds/task_acknowledge_032.mp3",
+          "label": "task acknowledge 032"
+        },
+        {
+          "file": "sounds/task_acknowledge_033.mp3",
+          "label": "task acknowledge 033"
+        },
+        {
+          "file": "sounds/task_acknowledge_034.mp3",
+          "label": "task acknowledge 034"
+        },
+        {
+          "file": "sounds/task_acknowledge_035.mp3",
+          "label": "task acknowledge 035"
+        },
+        {
+          "file": "sounds/task_acknowledge_036.mp3",
+          "label": "task acknowledge 036"
+        },
+        {
+          "file": "sounds/task_acknowledge_037.mp3",
+          "label": "task acknowledge 037"
+        },
+        {
+          "file": "sounds/task_acknowledge_038.mp3",
+          "label": "task acknowledge 038"
+        },
+        {
+          "file": "sounds/task_acknowledge_039.mp3",
+          "label": "task acknowledge 039"
+        },
+        {
+          "file": "sounds/task_acknowledge_040.mp3",
+          "label": "task acknowledge 040"
+        },
+        {
+          "file": "sounds/task_acknowledge_041.mp3",
+          "label": "task acknowledge 041"
+        },
+        {
+          "file": "sounds/task_acknowledge_042.mp3",
+          "label": "task acknowledge 042"
+        },
+        {
+          "file": "sounds/task_acknowledge_043.mp3",
+          "label": "task acknowledge 043"
+        },
+        {
+          "file": "sounds/task_acknowledge_044.mp3",
+          "label": "task acknowledge 044"
+        },
+        {
+          "file": "sounds/task_acknowledge_045.mp3",
+          "label": "task acknowledge 045"
+        },
+        {
+          "file": "sounds/task_acknowledge_046.mp3",
+          "label": "task acknowledge 046"
+        },
+        {
+          "file": "sounds/task_acknowledge_047.mp3",
+          "label": "task acknowledge 047"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/task_complete_001.mp3",
+          "label": "task complete 001"
+        },
+        {
+          "file": "sounds/task_complete_002.mp3",
+          "label": "task complete 002"
+        },
+        {
+          "file": "sounds/task_complete_003.mp3",
+          "label": "task complete 003"
+        },
+        {
+          "file": "sounds/task_complete_004.mp3",
+          "label": "task complete 004"
+        },
+        {
+          "file": "sounds/task_complete_005.mp3",
+          "label": "task complete 005"
+        },
+        {
+          "file": "sounds/task_complete_006.mp3",
+          "label": "task complete 006"
+        },
+        {
+          "file": "sounds/task_complete_007.mp3",
+          "label": "task complete 007"
+        },
+        {
+          "file": "sounds/task_complete_008.mp3",
+          "label": "task complete 008"
+        },
+        {
+          "file": "sounds/task_complete_009.mp3",
+          "label": "task complete 009"
+        },
+        {
+          "file": "sounds/task_complete_010.mp3",
+          "label": "task complete 010"
+        },
+        {
+          "file": "sounds/task_complete_011.mp3",
+          "label": "task complete 011"
+        },
+        {
+          "file": "sounds/task_complete_012.mp3",
+          "label": "task complete 012"
+        },
+        {
+          "file": "sounds/task_complete_013.mp3",
+          "label": "task complete 013"
+        },
+        {
+          "file": "sounds/task_complete_014.mp3",
+          "label": "task complete 014"
+        },
+        {
+          "file": "sounds/task_complete_015.mp3",
+          "label": "task complete 015"
+        },
+        {
+          "file": "sounds/task_complete_016.mp3",
+          "label": "task complete 016"
+        },
+        {
+          "file": "sounds/task_complete_017.mp3",
+          "label": "task complete 017"
+        },
+        {
+          "file": "sounds/task_complete_018.mp3",
+          "label": "task complete 018"
+        },
+        {
+          "file": "sounds/task_complete_019.mp3",
+          "label": "task complete 019"
+        },
+        {
+          "file": "sounds/task_complete_020.mp3",
+          "label": "task complete 020"
+        },
+        {
+          "file": "sounds/task_complete_021.mp3",
+          "label": "task complete 021"
+        },
+        {
+          "file": "sounds/task_complete_022.mp3",
+          "label": "task complete 022"
+        },
+        {
+          "file": "sounds/task_complete_023.mp3",
+          "label": "task complete 023"
+        },
+        {
+          "file": "sounds/task_complete_024.mp3",
+          "label": "task complete 024"
+        },
+        {
+          "file": "sounds/task_complete_025.mp3",
+          "label": "task complete 025"
+        },
+        {
+          "file": "sounds/task_complete_026.mp3",
+          "label": "task complete 026"
+        },
+        {
+          "file": "sounds/task_complete_027.mp3",
+          "label": "task complete 027"
+        },
+        {
+          "file": "sounds/task_complete_028.mp3",
+          "label": "task complete 028"
+        },
+        {
+          "file": "sounds/task_complete_029.mp3",
+          "label": "task complete 029"
+        },
+        {
+          "file": "sounds/task_complete_030.mp3",
+          "label": "task complete 030"
+        },
+        {
+          "file": "sounds/task_complete_031.mp3",
+          "label": "task complete 031"
+        },
+        {
+          "file": "sounds/task_complete_032.mp3",
+          "label": "task complete 032"
+        },
+        {
+          "file": "sounds/task_complete_033.mp3",
+          "label": "task complete 033"
+        },
+        {
+          "file": "sounds/task_complete_034.mp3",
+          "label": "task complete 034"
+        },
+        {
+          "file": "sounds/task_complete_035.mp3",
+          "label": "task complete 035"
+        },
+        {
+          "file": "sounds/task_complete_036.mp3",
+          "label": "task complete 036"
+        },
+        {
+          "file": "sounds/task_complete_037.mp3",
+          "label": "task complete 037"
+        },
+        {
+          "file": "sounds/task_complete_038.mp3",
+          "label": "task complete 038"
+        },
+        {
+          "file": "sounds/task_complete_039.mp3",
+          "label": "task complete 039"
+        },
+        {
+          "file": "sounds/task_complete_040.mp3",
+          "label": "task complete 040"
+        },
+        {
+          "file": "sounds/task_complete_041.mp3",
+          "label": "task complete 041"
+        },
+        {
+          "file": "sounds/task_complete_042.mp3",
+          "label": "task complete 042"
+        },
+        {
+          "file": "sounds/task_complete_043.mp3",
+          "label": "task complete 043"
+        },
+        {
+          "file": "sounds/task_complete_044.mp3",
+          "label": "task complete 044"
+        },
+        {
+          "file": "sounds/task_complete_045.mp3",
+          "label": "task complete 045"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/task_error_001.mp3",
+          "label": "task error 001"
+        },
+        {
+          "file": "sounds/task_error_002.mp3",
+          "label": "task error 002"
+        },
+        {
+          "file": "sounds/task_error_003.mp3",
+          "label": "task error 003"
+        },
+        {
+          "file": "sounds/task_error_004.mp3",
+          "label": "task error 004"
+        },
+        {
+          "file": "sounds/task_error_005.mp3",
+          "label": "task error 005"
+        },
+        {
+          "file": "sounds/task_error_006.mp3",
+          "label": "task error 006"
+        },
+        {
+          "file": "sounds/task_error_007.mp3",
+          "label": "task error 007"
+        },
+        {
+          "file": "sounds/task_error_008.mp3",
+          "label": "task error 008"
+        },
+        {
+          "file": "sounds/task_error_009.mp3",
+          "label": "task error 009"
+        },
+        {
+          "file": "sounds/task_error_010.mp3",
+          "label": "task error 010"
+        },
+        {
+          "file": "sounds/task_error_011.mp3",
+          "label": "task error 011"
+        },
+        {
+          "file": "sounds/task_error_012.mp3",
+          "label": "task error 012"
+        },
+        {
+          "file": "sounds/task_error_013.mp3",
+          "label": "task error 013"
+        },
+        {
+          "file": "sounds/task_error_014.mp3",
+          "label": "task error 014"
+        },
+        {
+          "file": "sounds/task_error_015.mp3",
+          "label": "task error 015"
+        },
+        {
+          "file": "sounds/task_error_016.mp3",
+          "label": "task error 016"
+        },
+        {
+          "file": "sounds/task_error_017.mp3",
+          "label": "task error 017"
+        },
+        {
+          "file": "sounds/task_error_018.mp3",
+          "label": "task error 018"
+        },
+        {
+          "file": "sounds/task_error_019.mp3",
+          "label": "task error 019"
+        },
+        {
+          "file": "sounds/task_error_020.mp3",
+          "label": "task error 020"
+        },
+        {
+          "file": "sounds/task_error_021.mp3",
+          "label": "task error 021"
+        },
+        {
+          "file": "sounds/task_error_022.mp3",
+          "label": "task error 022"
+        },
+        {
+          "file": "sounds/task_error_023.mp3",
+          "label": "task error 023"
+        },
+        {
+          "file": "sounds/task_error_024.mp3",
+          "label": "task error 024"
+        },
+        {
+          "file": "sounds/task_error_025.mp3",
+          "label": "task error 025"
+        },
+        {
+          "file": "sounds/task_error_026.mp3",
+          "label": "task error 026"
+        },
+        {
+          "file": "sounds/task_error_027.mp3",
+          "label": "task error 027"
+        },
+        {
+          "file": "sounds/task_error_028.mp3",
+          "label": "task error 028"
+        },
+        {
+          "file": "sounds/task_error_029.mp3",
+          "label": "task error 029"
+        },
+        {
+          "file": "sounds/task_error_030.mp3",
+          "label": "task error 030"
+        },
+        {
+          "file": "sounds/task_error_031.mp3",
+          "label": "task error 031"
+        },
+        {
+          "file": "sounds/task_error_032.mp3",
+          "label": "task error 032"
+        },
+        {
+          "file": "sounds/task_error_033.mp3",
+          "label": "task error 033"
+        },
+        {
+          "file": "sounds/task_error_034.mp3",
+          "label": "task error 034"
+        },
+        {
+          "file": "sounds/task_error_035.mp3",
+          "label": "task error 035"
+        },
+        {
+          "file": "sounds/task_error_036.mp3",
+          "label": "task error 036"
+        },
+        {
+          "file": "sounds/task_error_037.mp3",
+          "label": "task error 037"
+        },
+        {
+          "file": "sounds/task_error_038.mp3",
+          "label": "task error 038"
+        },
+        {
+          "file": "sounds/task_error_039.mp3",
+          "label": "task error 039"
+        },
+        {
+          "file": "sounds/task_error_040.mp3",
+          "label": "task error 040"
+        },
+        {
+          "file": "sounds/task_error_041.mp3",
+          "label": "task error 041"
+        },
+        {
+          "file": "sounds/task_error_042.mp3",
+          "label": "task error 042"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/input_required_001.mp3",
+          "label": "input required 001"
+        },
+        {
+          "file": "sounds/input_required_002.mp3",
+          "label": "input required 002"
+        },
+        {
+          "file": "sounds/input_required_003.mp3",
+          "label": "input required 003"
+        },
+        {
+          "file": "sounds/input_required_004.mp3",
+          "label": "input required 004"
+        },
+        {
+          "file": "sounds/input_required_005.mp3",
+          "label": "input required 005"
+        },
+        {
+          "file": "sounds/input_required_006.mp3",
+          "label": "input required 006"
+        },
+        {
+          "file": "sounds/input_required_007.mp3",
+          "label": "input required 007"
+        },
+        {
+          "file": "sounds/input_required_008.mp3",
+          "label": "input required 008"
+        },
+        {
+          "file": "sounds/input_required_009.mp3",
+          "label": "input required 009"
+        },
+        {
+          "file": "sounds/input_required_010.mp3",
+          "label": "input required 010"
+        },
+        {
+          "file": "sounds/input_required_011.mp3",
+          "label": "input required 011"
+        },
+        {
+          "file": "sounds/input_required_012.mp3",
+          "label": "input required 012"
+        },
+        {
+          "file": "sounds/input_required_013.mp3",
+          "label": "input required 013"
+        },
+        {
+          "file": "sounds/input_required_014.mp3",
+          "label": "input required 014"
+        },
+        {
+          "file": "sounds/input_required_015.mp3",
+          "label": "input required 015"
+        },
+        {
+          "file": "sounds/input_required_016.mp3",
+          "label": "input required 016"
+        },
+        {
+          "file": "sounds/input_required_017.mp3",
+          "label": "input required 017"
+        },
+        {
+          "file": "sounds/input_required_018.mp3",
+          "label": "input required 018"
+        },
+        {
+          "file": "sounds/input_required_019.mp3",
+          "label": "input required 019"
+        },
+        {
+          "file": "sounds/input_required_020.mp3",
+          "label": "input required 020"
+        },
+        {
+          "file": "sounds/input_required_021.mp3",
+          "label": "input required 021"
+        },
+        {
+          "file": "sounds/input_required_022.mp3",
+          "label": "input required 022"
+        },
+        {
+          "file": "sounds/input_required_023.mp3",
+          "label": "input required 023"
+        },
+        {
+          "file": "sounds/input_required_024.mp3",
+          "label": "input required 024"
+        },
+        {
+          "file": "sounds/input_required_025.mp3",
+          "label": "input required 025"
+        },
+        {
+          "file": "sounds/input_required_026.mp3",
+          "label": "input required 026"
+        },
+        {
+          "file": "sounds/input_required_027.mp3",
+          "label": "input required 027"
+        },
+        {
+          "file": "sounds/input_required_028.mp3",
+          "label": "input required 028"
+        },
+        {
+          "file": "sounds/input_required_029.mp3",
+          "label": "input required 029"
+        },
+        {
+          "file": "sounds/input_required_030.mp3",
+          "label": "input required 030"
+        },
+        {
+          "file": "sounds/input_required_031.mp3",
+          "label": "input required 031"
+        },
+        {
+          "file": "sounds/input_required_032.mp3",
+          "label": "input required 032"
+        },
+        {
+          "file": "sounds/input_required_033.mp3",
+          "label": "input required 033"
+        },
+        {
+          "file": "sounds/input_required_034.mp3",
+          "label": "input required 034"
+        },
+        {
+          "file": "sounds/input_required_035.mp3",
+          "label": "input required 035"
+        },
+        {
+          "file": "sounds/input_required_036.mp3",
+          "label": "input required 036"
+        },
+        {
+          "file": "sounds/input_required_037.mp3",
+          "label": "input required 037"
+        },
+        {
+          "file": "sounds/input_required_038.mp3",
+          "label": "input required 038"
+        },
+        {
+          "file": "sounds/input_required_039.mp3",
+          "label": "input required 039"
+        },
+        {
+          "file": "sounds/input_required_040.mp3",
+          "label": "input required 040"
+        },
+        {
+          "file": "sounds/input_required_041.mp3",
+          "label": "input required 041"
+        },
+        {
+          "file": "sounds/input_required_042.mp3",
+          "label": "input required 042"
+        },
+        {
+          "file": "sounds/input_required_043.mp3",
+          "label": "input required 043"
+        },
+        {
+          "file": "sounds/input_required_044.mp3",
+          "label": "input required 044"
+        },
+        {
+          "file": "sounds/input_required_045.mp3",
+          "label": "input required 045"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/resource_limit_001.mp3",
+          "label": "resource limit 001"
+        },
+        {
+          "file": "sounds/resource_limit_002.mp3",
+          "label": "resource limit 002"
+        },
+        {
+          "file": "sounds/resource_limit_003.mp3",
+          "label": "resource limit 003"
+        },
+        {
+          "file": "sounds/resource_limit_004.mp3",
+          "label": "resource limit 004"
+        },
+        {
+          "file": "sounds/resource_limit_005.mp3",
+          "label": "resource limit 005"
+        },
+        {
+          "file": "sounds/resource_limit_006.mp3",
+          "label": "resource limit 006"
+        },
+        {
+          "file": "sounds/resource_limit_007.mp3",
+          "label": "resource limit 007"
+        },
+        {
+          "file": "sounds/resource_limit_008.mp3",
+          "label": "resource limit 008"
+        },
+        {
+          "file": "sounds/resource_limit_009.mp3",
+          "label": "resource limit 009"
+        },
+        {
+          "file": "sounds/resource_limit_010.mp3",
+          "label": "resource limit 010"
+        },
+        {
+          "file": "sounds/resource_limit_011.mp3",
+          "label": "resource limit 011"
+        },
+        {
+          "file": "sounds/resource_limit_012.mp3",
+          "label": "resource limit 012"
+        },
+        {
+          "file": "sounds/resource_limit_013.mp3",
+          "label": "resource limit 013"
+        },
+        {
+          "file": "sounds/resource_limit_014.mp3",
+          "label": "resource limit 014"
+        },
+        {
+          "file": "sounds/resource_limit_015.mp3",
+          "label": "resource limit 015"
+        },
+        {
+          "file": "sounds/resource_limit_016.mp3",
+          "label": "resource limit 016"
+        },
+        {
+          "file": "sounds/resource_limit_017.mp3",
+          "label": "resource limit 017"
+        },
+        {
+          "file": "sounds/resource_limit_018.mp3",
+          "label": "resource limit 018"
+        },
+        {
+          "file": "sounds/resource_limit_019.mp3",
+          "label": "resource limit 019"
+        },
+        {
+          "file": "sounds/resource_limit_020.mp3",
+          "label": "resource limit 020"
+        }
+      ]
+    }
+  }
+}
